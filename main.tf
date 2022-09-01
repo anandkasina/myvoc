@@ -1,5 +1,6 @@
 module "vpcc_terraform-google-vpc" {
   source  = "app.terraform.io/DEMO111/vpcc/google//modules/terraform-google-vpc"
   version = "1.1.2"
-  name = "myvpc"
+  name = "newvpc"
+  region = "us-east1"
 }
